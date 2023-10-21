@@ -1,0 +1,247 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 1.7em;
+
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Alfa Slab One', serif;
+
+}
+a,a:hover{
+    text-decoration: none;
+}
+.header{
+    width: 100%;
+    padding: 50px 0px 80px;
+    background: url("../images/bg1.png") center top no-repeat;
+    background-size: cover;
+}
+.header .header-icons{
+    text-align: right;
+    margin: 0px 20px 0px 0px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #3d2514;
+}
+.header .header-icons img{
+    margin: 0px 10px 0px 0px;
+}
+
+.header .navbar-expand-lg .navbar-nav .nav-item .nav-link{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #3d2514;
+    letter-spacing: 4px;
+    margin: 0px 0px 0px 25px;
+}
+.banner{
+    width: 100%;
+    padding: 120px 0px;
+}
+.banner .inner-banne{
+    width: 100%;
+    padding: 80px 0px;
+}
+.banner .inner-banner h5{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+   line-height: 1.2em;
+    color: #3d2514;
+    letter-spacing: 2px;
+
+}
+.banner .inner-banner h5 span{
+    width: auto;
+    padding: 20px;
+    border: 2px dashed #3d2514;
+    margin: 0px 0px 15px;
+    display: inline-block;
+}
+.banner .inner-banner h1{
+    font-size: 100px;
+    font-weight: 900px;
+    letter-spacing: 1px;
+    color: #3d2514;
+    text-transform: uppercase;
+    text-shadow: 2px 5px #fee8bb;
+
+}
+.banner .inner-banner h2{
+    font-size: 60px;
+    font-weight: 900px;
+    letter-spacing: 1px;
+    color: #3d2514;
+    text-transform: uppercase;
+    text-shadow: 2px 5px #fee8bb;
+
+
+}
+.feature{
+    width: 100%;
+    padding: 80px 0px;
+}
+.feature .card{
+    margin: 0px 0px 35px ;
+
+}
+.feature .card .card-title{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+   line-height: 1.2em;
+    color: #fff;
+    letter-spacing: 1px;
+    margin: 10px 0px 0px 15px;
+
+}
+.feature .card h3{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    text-transform: uppercase;
+   line-height: 1.2em;
+    color: #fff;
+    letter-spacing: 1px;
+    margin: 0px 0px 0px 15px;
+}
+.choose{
+    width: 100%;
+    padding: 80px 0px;
+}
+.choose .title{
+    width: 100%;
+    padding: 0px 0px 80px;
+    text-align: center;
+}
+.choose .title h5{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 1.2em;
+    color: #3d2514;
+    letter-spacing: 1px;
+   
+}
+.choose .title h5 span{
+    display: inline-block;
+    padding: 10px;
+    background: #ffc045;
+    margin: 0px 0px 20px;
+}
+.choose .title h1{
+    font-size: 42px;
+    font-weight: 700px;
+    letter-spacing: 1px;
+    color: #3d2514;
+    text-transform: uppercase;
+   
+}
+.choose .title p{
+    font-size: 14px;
+    font-weight: 400px;
+    line-height: 1.7em;
+    color: #3d2514;
+    
+
+}
+.inner-choose{
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+}
+.inner-choose img{
+    margin: 0px 0px 20px;
+    height: 290px;
+
+}
+.inner-choose h5{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 1.2em;
+    color: #3d2514;
+    letter-spacing: 2px;
+
+}
+.inner-choose p{
+    font-size: 14px;
+    font-weight: 400px;
+    line-height: 1.7em;
+    color: #3d2514;
+    margin: 0px 0px 20px;
+
+}
+.inner-choose .btn-danger{
+    font-family: 'Alfa Slab One', serif;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    border-radius: 2px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: #fff;
+    background: #bf2222;
+    border: 1px solid #bf2222;
+    transition: 1s;
+
+
+}
+.inner-choose .btn-danger:hover,.inner-choose .btn-danger:focus{
+    color: #bf2222;
+    background: transparent;
+    border: 1px solid #bf2222;
+}
+
+.event{
+    width: 100%;
+    padding: 80px 0px;
+}
+.event .owl-carousel{
+    padding: 20px 20px 20px 40px;
+    box-shadow: 0px 4px 10px #ccc;
+}
+.event .owl-carousel .item h4{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 1.2em;
+    color: #000;
+    letter-spacing: 1px;
+    margin: 40px 0px 0px;
+}
+.event .owl-carousel .item h3{
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.2em;
+    color: #3d2514;
+    letter-spacing: 2px;
+    
+}
+.event .owl-carousel .item p{
+    font-size: 18px;
+    font-weight: 400px;
+    line-height: 1.7em;
+    color: #3d2514;
+    
+}
+.event .owl-theme .owl-dots .owl-dot {
+    position: absolute;
+    bottom: 15%;
+    left:3% ;
+}
+
+
+}
